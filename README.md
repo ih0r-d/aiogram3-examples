@@ -40,3 +40,4 @@
 ### Note:
 - Ensure that your virtual environment is activated before running any commands.
 - Review `requirements.txt` periodically to keep track of package versions.
+- For run on your side, please update `config.json`
