@@ -1,12 +1,11 @@
 import asyncio
 import logging
-import re
 
 from aiogram import Bot, Dispatcher, html, F
 from aiogram.enums import ParseMode
 from aiogram.filters import Command, CommandObject, CommandStart
 from aiogram.types import Message, FSInputFile, URLInputFile, BufferedInputFile
-from aiogram.utils.formatting import as_list, as_marked_section, Bold, as_key_value, HashTag, BotCommand
+from aiogram.utils.formatting import as_list, as_marked_section, Bold, as_key_value, HashTag
 from aiogram.utils.markdown import hide_link
 from aiogram.utils.media_group import MediaGroupBuilder
 
